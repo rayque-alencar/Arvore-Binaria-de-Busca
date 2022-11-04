@@ -12,7 +12,7 @@ typedef struct NoArvore{
     int valor;
     NoArvore* esquerda; 
     NoArvore* direita;
-};
+}NoArvore;
 
 NoArvore* inserir(NoArvore* raiz, int valor);
 void imprimir(NoArvore* raiz);

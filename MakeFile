@@ -1,11 +1,11 @@
 
 Arvore: main.o NoArvore.o 
-	g++ main.o NoArvore.o -o ListaEncadeada
+	g++ main.o NoArvore.o -o Arvore
 
 main.o: main.cpp
 	g++ -c main.cpp
 
-Lista.o: NoArvore.cpp NoArvore.hpp
+NoArvore.o: NoArvore.cpp NoArvore.hpp
 	g++ -c NoArvore.cpp
 
 clean:
